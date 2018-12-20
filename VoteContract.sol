@@ -118,6 +118,5 @@ contract voteDemo {
         constant returns(bytes8 winnername)
         {
             winnername = posposals[Winid()].name;
-        }
-        
+        }   
     }
